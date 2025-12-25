@@ -1,0 +1,27 @@
+{
+  "name": "aiexor-image-creator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.15.0",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.88.0",
+    "ai": "^5.0.114",
+    "next": "^14.2.35",
+    "openai": "^4.56.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "stripe": "^20.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
